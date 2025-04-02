@@ -7310,57 +7310,57 @@ local ClosureBindings = {
 	}
 	end,
 	[88] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(88)return {
-		Name = "Deep Ocean",
-		Accent = Color3.fromRGB(0, 100, 200), -- น้ำเงินเข้ม
-		
-		AcrylicMain = Color3.fromRGB(5, 15, 30), -- น้ำเงินดำลึก
-		AcrylicBorder = Color3.fromRGB(10, 40, 80), -- น้ำเงินหม่น
-		AcrylicGradient = ColorSequence.new{
-			ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 100, 200)), -- น้ำเงินกลางคืน
-			ColorSequenceKeypoint.new(0.5, Color3.fromRGB(0, 150, 255)), -- ฟ้าน้ำลึก
-			ColorSequenceKeypoint.new(1, Color3.fromRGB(20, 20, 80)) -- น้ำเงินทะเลลึก
-		},
-		AcrylicNoise = 0.92,
+	Name = "Neon Blue",
+	Accent = Color3.fromRGB(0, 150, 255), -- ฟ้าเรืองแสง
+	
+	AcrylicMain = Color3.fromRGB(15, 15, 25), -- เทาน้ำเงินอ่อน
+	AcrylicBorder = Color3.fromRGB(30, 30, 50), -- น้ำเงินหม่น
+	AcrylicGradient = ColorSequence.new{
+		ColorSequenceKeypoint.new(0, Color3.fromRGB(20, 20, 40)), -- เทาน้ำเงิน
+		ColorSequenceKeypoint.new(0.5, Color3.fromRGB(30, 30, 60)), -- เทาฟ้า
+		ColorSequenceKeypoint.new(1, Color3.fromRGB(50, 50, 80)) -- น้ำเงินอ่อน
+	},
+	AcrylicNoise = 0.85,
 
-		TitleBarLine = Color3.fromRGB(0, 150, 255), -- ฟ้าสว่างตัด
-		Tab = Color3.fromRGB(0, 180, 255), -- ฟ้าน้ำทะเล
-		
-		Element = Color3.fromRGB(10, 40, 80), -- น้ำเงินท้องฟ้าหม่น
-		ElementBorder = Color3.fromRGB(0, 120, 255), -- ฟ้ากลางวัน
-		InElementBorder = Color3.fromRGB(0, 200, 255), -- ฟ้าน้ำทะเล
-		ElementTransparency = 0.75,
+	TitleBarLine = Color3.fromRGB(0, 200, 255), -- ฟ้าเรืองแสง
+	Tab = Color3.fromRGB(0, 220, 255), -- ฟ้านีออน
+	
+	Element = Color3.fromRGB(25, 25, 40), -- เทาน้ำเงิน
+	ElementBorder = Color3.fromRGB(0, 200, 255), -- ฟ้านีออน
+	InElementBorder = Color3.fromRGB(0, 220, 255), -- ฟ้าสว่าง
+	ElementTransparency = 0.9,
 
-		ToggleSlider = Color3.fromRGB(0, 150, 255), -- ฟ้าสว่าง
-		ToggleToggled = Color3.fromRGB(0, 50, 100),
+	ToggleSlider = Color3.fromRGB(0, 180, 255), -- ฟ้าใส
+	ToggleToggled = Color3.fromRGB(0, 80, 150),
 
-		SliderRail = Color3.fromRGB(0, 120, 255),
+	SliderRail = Color3.fromRGB(0, 200, 255),
 
-		DropdownFrame = Color3.fromRGB(10, 40, 80),
-		DropdownHolder = Color3.fromRGB(5, 20, 50),
-		DropdownBorder = Color3.fromRGB(0, 120, 255),
-		DropdownOption = Color3.fromRGB(0, 200, 255),
+	DropdownFrame = Color3.fromRGB(25, 25, 40),
+	DropdownHolder = Color3.fromRGB(20, 20, 35),
+	DropdownBorder = Color3.fromRGB(0, 180, 255),
+	DropdownOption = Color3.fromRGB(0, 220, 255),
 
-		Keybind = Color3.fromRGB(0, 200, 255),
+	Keybind = Color3.fromRGB(0, 220, 255),
 
-		Input = Color3.fromRGB(0, 120, 255),
-		InputFocused = Color3.fromRGB(0, 50, 100),
-		InputIndicator = Color3.fromRGB(0, 200, 255),
+	Input = Color3.fromRGB(0, 200, 255),
+	InputFocused = Color3.fromRGB(20, 20, 40),
+	InputIndicator = Color3.fromRGB(0, 220, 255),
 
-		Dialog = Color3.fromRGB(10, 40, 80),
-		DialogHolder = Color3.fromRGB(5, 20, 50),
-		DialogHolderLine = Color3.fromRGB(0, 50, 100),
-		DialogButton = Color3.fromRGB(0, 180, 255),
-		DialogButtonBorder = Color3.fromRGB(0, 120, 255),
-		DialogBorder = Color3.fromRGB(0, 100, 200),
-		DialogInput = Color3.fromRGB(0, 200, 255),
-		DialogInputLine = Color3.fromRGB(0, 120, 255),
+	Dialog = Color3.fromRGB(25, 25, 40),
+	DialogHolder = Color3.fromRGB(20, 20, 35),
+	DialogHolderLine = Color3.fromRGB(20, 20, 40),
+	DialogButton = Color3.fromRGB(0, 200, 255),
+	DialogButtonBorder = Color3.fromRGB(0, 180, 255),
+	DialogBorder = Color3.fromRGB(0, 150, 255),
+	DialogInput = Color3.fromRGB(0, 220, 255),
+	DialogInputLine = Color3.fromRGB(0, 200, 255),
 
-		Text = Color3.fromRGB(255, 255, 255),
-		SubText = Color3.fromRGB(200, 220, 255),
-		Hover = Color3.fromRGB(0, 150, 255),
-		HoverChange = 0.05,
-	}
-	end,
+	Text = Color3.fromRGB(0, 255, 255), -- ฟ้าเรืองแสง
+	SubText = Color3.fromRGB(180, 220, 255), -- ฟ้านวล
+	Hover = Color3.fromRGB(0, 220, 255), -- ฟ้านีออน
+	HoverChange = 0.07,
+}
+end,
 
 	[89] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(89)return {
 		Name = "Abstract Chaos",
